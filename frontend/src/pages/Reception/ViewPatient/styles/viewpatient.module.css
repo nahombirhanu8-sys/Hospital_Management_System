@@ -1,0 +1,24 @@
+table{
+    width: 70%;
+    margin: 20px auto 0 auto;
+    border-collapse: collapse;
+
+}
+
+thead > tr{
+    background-color: #DDE5F1;
+    font-weight: 500;
+    font-size: 1.25rem;
+    border-radius: 20px;
+}
+tbody > tr{
+    font-weight: 500;
+    font-size: 1.25rem;
+    text-align: center;
+    border-bottom: 1px solid #bbc6d7;
+    
+}
+table,th,tr,td{
+    border: none;
+}
+

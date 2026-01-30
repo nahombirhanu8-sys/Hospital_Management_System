@@ -1,0 +1,26 @@
+.mydetails-table{
+   display: none;
+}
+.mobile-table{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+@media(min-width: 800px){
+    .mobile-table{
+        display: none;
+    }
+    .mydetails-table{
+        display: block;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .mydetails-table tr,
+    .mydetails-table td,
+    .mydetails-table th{
+        border: 1px solid black;
+    }
+}

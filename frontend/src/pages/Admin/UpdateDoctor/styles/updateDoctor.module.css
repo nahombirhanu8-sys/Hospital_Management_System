@@ -1,0 +1,86 @@
+.updateForm {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.updateForm h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+.updateForm label {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    font-weight: 500;
+    color: #333;
+}
+
+.name {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    width: 100%;
+}
+
+.name:focus {
+    outline: none;
+    border-color: #2463EB;
+    box-shadow: 0 0 0 2px rgba(36, 99, 235, 0.1);
+}
+
+.searchButton {
+    padding: 0.75rem 1.5rem;
+    background-color: #2463EB;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    margin-top: 1rem;
+}
+
+.searchButton:hover {
+    background-color: #1d4ed8;
+}
+.editDoctor{
+    padding: 5px;
+    border: 0;
+    background: blue;
+    color: white;
+    font-weight: bold;
+
+}
+.editDoctor:hover,
+.editForm button:hover{
+    cursor: pointer;
+}
+.editForm{
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    top: -6%;
+    left: 0;
+    padding: 5px 600px;
+}
+.editForm input{
+    background: white;
+    border: 1px solid black;
+    padding: none;
+    border-radius: 10px;
+}
+.editForm button{
+    width: 20%;
+}
